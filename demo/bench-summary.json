@@ -1,0 +1,28 @@
+{
+  "flow": [
+    "General",
+    "About",
+    "General",
+    "Settings",
+    "Camera",
+    "Settings"
+  ],
+  "runs": 6,
+  "results": {
+    "classic": {
+      "toolSeconds": 13.217617980000007,
+      "calls": 12,
+      "observationTokens": 9048
+    },
+    "simfast": {
+      "toolSeconds": 10.4965959155,
+      "calls": 6,
+      "observationTokens": 1097
+    },
+    "batch": {
+      "toolSeconds": 7.2718830830000005,
+      "calls": 1,
+      "observationTokens": 227
+    }
+  }
+}

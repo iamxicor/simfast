@@ -5,3 +5,4 @@ node_modules/
 demo/out/
 demo/*.mp4
 !demo/simfast-demo.mp4
+demo/linkedin-post.md

@@ -23,6 +23,9 @@ tapped "General" (Button) at (201,406)
 · 1.5s via simgadget (act 0.1 · settle 0.5 · read 0.9)
 ```
 
+[![Screenshot loop vs simfast, same 6-step task](docs/demo-frame.png)](docs/simfast-demo.mp4)
+*Click for the 47 s side-by-side video (real tool time; model latency simulated at 2 s per tool call). Reproduce with `demo/record.mjs` + `demo/compose.py`.*
+
 ## Why
 
 Most agent-driven simulator loops look like this: *tap → screenshot → model reads pixels → guess coordinates → tap*. That is slow and expensive for three reasons:
