@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+/tmp/
+demo/out/
+demo/*.mp4
+!demo/simfast-demo.mp4

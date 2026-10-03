@@ -1,0 +1,52 @@
+{
+  "name": "simfast",
+  "version": "0.1.0",
+  "description": "Fast, token-cheap iOS Simulator control for AI agents: a persistent daemon for taps, a compact accessibility snapshot for reading. CLI + MCP server.",
+  "type": "module",
+  "bin": {
+    "simfast": "bin/simfast.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node bench/compare.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "ios",
+    "simulator",
+    "mcp",
+    "ai-agent",
+    "claude-code",
+    "accessibility",
+    "automation",
+    "xcode"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^3.25.0"
+  },
+  "optionalDependencies": {
+    "simgadget": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamxicor/simfast.git"
+  },
+  "homepage": "https://github.com/iamxicor/simfast#readme",
+  "bugs": {
+    "url": "https://github.com/iamxicor/simfast/issues"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "flow": [
+    "General",
+    "About",
+    "General",
+    "Settings",
+    "Camera",
+    "Settings"
+  ],
+  "llmSeconds": 3,
+  "results": {
+    "classic": {
+      "label": "screenshot loop",
+      "toolSeconds": 12.303502708,
+      "calls": 12,
+      "observationTokens": 9048,
+      "steps": 6,
+      "modelledSeconds": 48.303502707999996
+    },
+    "simfast": {
+      "label": "simfast, per step",
+      "toolSeconds": 11.263757874999996,
+      "calls": 6,
+      "observationTokens": 1097,
+      "steps": 6,
+      "modelledSeconds": 29.263757874999996
+    },
+    "batch": {
+      "label": "simfast, batched",
+      "toolSeconds": 7.012751624999997,
+      "calls": 1,
+      "observationTokens": 227,
+      "steps": 6,
+      "modelledSeconds": 10.012751624999996
+    }
+  }
+}
